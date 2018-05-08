@@ -1,0 +1,17 @@
+{
+  "name": "VideoJs chunk info",
+  "description" : "Shows info for every chunk loaded with videoJS",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "sandbox": {
+    "pages": ["index.html"]
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["app.js"]
+  }]
+}

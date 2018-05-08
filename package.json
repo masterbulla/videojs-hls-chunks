@@ -1,0 +1,15 @@
+{
+  "name": "videojs-chunkinfo",
+  "version": "1.0.0",
+  "description": "VideoJS HLS plugin, test config for getting info about current/buffered/downloading chunks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Kuzmenya",
+  "license": "ISC",
+  "dependencies": {
+    "video.js": "^6.8.0",
+    "videojs-contrib-hls": "^5.14.1"
+  }
+}
